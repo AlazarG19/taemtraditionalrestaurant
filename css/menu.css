@@ -1,0 +1,218 @@
+.opacity-doer{
+	opacity: .8;
+}
+:root{
+    --yellow:#ee0000;
+}
+
+html::-webkit-scrollbar{
+    width:1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#333;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--yellow);
+}
+.restaurant-menu h1, h2, h3, h4 {
+	font-family: 'Raleway', sans-serif;
+}
+.fill-it-all{
+	width:100vw;
+}
+#restaurant-menu h2 {
+	font-weight: 400;
+	font-size: 38px;
+	color: #333;
+	text-transform: uppercase;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 15px;
+	padding-bottom: 20px;
+}
+#restaurant-menu h2::after {
+	position: absolute;
+	content: "";
+	background: #d43031;
+	height: 2px;
+	width: 70px;
+	bottom: 0;
+	margin-left: -35px;
+	left: 50%;
+}
+#restaurant-menu h3 {
+	font-size: 24px;
+	font-weight: 400;
+	color: #333;
+}
+#restaurant-menu h4 {
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #333;
+}
+#restaurant-menu h5 {
+	text-transform: uppercase;
+	font-weight: 700;
+	line-height: 20px;
+}
+#restaurant-menu p {
+	font-size: 15px;
+}
+#restaurant-menu p.intro {
+	margin: 12px 0 0;
+	line-height: 24px;
+}
+#restaurant-menu a {
+	color: #8eb640;
+}
+#restaurant-menu a:hover, a:focus {
+	text-decoration: none;
+	color: #222;
+}
+#restaurant-menu ul, ol {
+	list-style: none;
+}
+#restaurant-menu ul, ol {
+	padding: 0;
+}
+.btn:active, .btn.active {
+	background-image: none;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+#restaurant-menu a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
+	outline: none;
+	outline-offset: none;
+}
+/* Menu Section */
+#restaurant-menu {
+	padding: 100px 0 60px 0;
+}
+#restaurant-menu img {
+	width: 400px;
+}
+#restaurant-menu h3 {
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+#restaurant-menu .menu-section hr {
+	margin: 0 auto;
+}
+#restaurant-menu .menu-section {
+	margin: 0 20px 80px;
+}
+#restaurant-menu .menu-section-title {
+	font-size: 32px;
+	display: block;
+	font-weight: 400;
+	color: #444;
+	margin: 20px 0;
+	text-align: center;
+}
+#restaurant-menu .menu-item {
+	margin: 45px 0;
+	font-size: 18px;
+	text-align: center;
+}
+#restaurant-menu .menu-item-name {
+	font-weight: 400;
+	font-size: 25px;
+	color: #444;
+	margin-bottom: 10px;
+}
+#restaurant-menu .menu-item-description {
+	font-size: 15px;
+	width: 85%;
+	margin-left: 50px
+}
+#restaurant-menu .menu-item-price {
+	float: right;
+	font-weight: 400;
+	color: #555;
+	margin-top: -36px;
+}
+
+.menu_title_amharic::after {
+		position: absolute;
+		content: "";
+		background: #d43031;
+		height: 2px;
+		width: 70px;
+		bottom: 0;
+		margin-left: -35px;
+		left: 50%;
+	}
+.menu-header-total{
+	margin-left: 20vw;
+	display:flex;
+}
+.menu-section-title-amharic{
+	
+}
+
+/* menu Gallery Section */
+.menu-item-photos-row{
+	display: flex;
+	flex-direction: row;
+}
+.gallery-item>img{
+	width: 25vw;
+}
+.amharic-1{
+	background-image: url(../wave-haikei\ \(3\).svg);
+    background-position: 30%;
+    background-size: cover;
+	color: white
+}
+#restaurant-menu .amharic-1 .menu-section {
+	color: white
+}
+#restaurant-menu .amharic-1 .menu-section-title {
+	color: white
+}
+#restaurant-menu .amharic-1 .menu-row{
+	display: flex;
+    flex-direction: row; 
+}
+#restaurant-menu .amharic-1 .menu-item-name{
+	color: white
+}
+.spacer{
+	display:none;
+}
+/* Middle waves */
+
+@media (max-width : 600px){
+	.p2{
+		display: none;
+	}
+	.gallery-item>img{
+		width: 50vw;
+	}
+}
+@media (max-width : 575px){
+	.bg-red{
+		background-color: #9d0208;
+	}
+	.amharic-1{
+		background-image: none;
+	}
+	.menu-row{
+		flex-direction: column; 
+	}
+	.spacer {
+		display: block;
+		aspect-ratio: 900/300;
+		width: 100%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.layer1 {
+		background-image: url(../layer1.svg);
+	}
+}
