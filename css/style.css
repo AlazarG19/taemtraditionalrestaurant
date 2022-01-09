@@ -275,6 +275,7 @@ header #menu-bar{
 }
 
 .popular .box-container .box{
+    height: 35rem;
     opacity:.5;
     background:#fff;
     width:35rem;
