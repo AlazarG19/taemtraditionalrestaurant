@@ -1,557 +1,764 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Taem Traditional Restaurant</title>
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Taem Traditional Restaurant</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+    <!-- Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- Stylesheet
+    <!-- Stylesheet
     ================================================== -->
-  <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./css/menu.css">
-  <!--footer css-->
-  <link rel="stylesheet" href="css/footer.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.compat.css" />
-  <!--Navbar css-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-  <link rel="stylesheet" href="css/navbar.css">
-</head>
+    <!-- custom css -->
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-  <!--Navbar-->
-  <nav>
-    <div class="logo">ጣዕም</div>
-    <input type="checkbox" id="click">
-    <label for="click" class="menu-btn">
-      <i class="fas fa-bars"></i>
-    </label>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="galllery.html">Gallery</a></li>
-      <li><a href="Menu.html">Menu</a></li>
-    </ul>
-  </nav>
-  <!-- Restaurant Menu Section -->
-  <div id="restaurant-menu" class="fill-it-all" style="padding-bottom: 0;">
-    <div class="container fill-it-all" style="margin-left: 0; margin-right: 0; padding-right: 0px; 
-     padding-left: 0px;     width: 100vw;">
-      <div class="section-title text-center fill-it-all">
-        <h2>Menu</h2>
-      </div>
-      <div id="gallery" class="fill-it-all">
-        <div class="container-fluid " style="margin-left: 0; margin-right: 0; padding-right: 0px; 
-        padding-left: 0px; ">
-          <div class="menu-item-photos-row">
-            <div class="menu-item-photos">
-              <div class="gallery-item"> <img src="./images/Menu1.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos">
-              <div class="gallery-item"> <img src="./images/Menu2.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos p2">
-              <div class="gallery-item"> <img src="./images/Menu3.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos p2">
-              <div class="gallery-item"> <img src="./images/Menu4.jpg" class="img-responsive" alt=""></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row menu-row fill-it-all" style="margin-left: 0; margin-right: 0; padding-right: 0px; 
-      padding-left: 0px; ">
-        <div class="col-xs-12 col-sm-6 eng">
-          <div class="menu-section">
-            <h2 class="menu-section-title">ቁርስ</h2>
-            <div class="menu-item">
-              <div class="menu-item-name">ፍርፍር</div>
-              <div class="menu-item-description">ቋንጣ ፍርፍር</div>
-              <div class="menu-item-description">ጥብስ ፍርፍር</div>
-              <div class="menu-item-description">ክትፎ ፍርፍር</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">ቅንጨ</div>
-              <div class="menu-item-description">ኖርማል ቅንጨ</div>
-              <div class="menu-item-description">ስፔሻል ቅንጨ</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">እንቁላል </div>
-              <div class="menu-item-description">እንቁላል ፍርፍር</div>
-              <div class="menu-item-description">እንቁላል ሳንዱዊች</div>
-              <div class="menu-item-description">እንቁላል በቱና</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">ቡላ</div>
+    <link rel="stylesheet" type="text/css" href="./css/menu.css" />
+    <!--footer css-->
+    <!--Navbar css-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <!-- Theme color -->
+    <link id="switcher" href="./css/theme-color.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
 
-              <div class="menu-item-description">ኖርማል </div>
-              <div class="menu-item-description">እስፔሻል</div>
-              <div class="menu-item-description">በክትፎ</div>
-            </div>
-            <div class="menu-item">
-
-              <div class="menu-item-name">ጨጨብሳ</div>
-
-              <div class="menu-item-description">ኖርማል </div>
-              <div class="menu-item-description">እስፔሻል</div>
-            </div>
-            <div class="menu-item">
-
-              <div class="menu-item-name">ፉል</div>
-Drink
-              <div class="menu-item-description">ኖርማል </div>
-              <div class="menu-item-description">እስፔሻል</div>
-            </div>
-          </div>
-        </div>
-        <div class = "spacer layer1"></div>
-        <div class="col-xs-12 col-sm-6 amharic-1 bg-red">
-          <div class="menu-section">
-            <h2 class="menu-section-title">Breakfast</h2>
-            <div class="menu-item">
-              <div class="menu-item-name">Firfir</div>
-              <div class="menu-item-description">Quanta Firfir</div>
-              <div class="menu-item-description">Tibs Firfir</div>
-              <div class="menu-item-description">Kitfo Firfir</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Kinche</div>
-              <div class="menu-item-description">Normal Kinche</div>
-              <div class="menu-item-description">Special Kinche</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Egg</div>
-              <div class="menu-item-description">Egg firfir</div>
-              <div class="menu-item-description">Egg Sandwich</div>
-              <div class="menu-item-description">Egg with tuna</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Bula</div>
-
-              <div class="menu-item-description">Normal Bula</div>
-              <div class="menu-item-description">Special Bula</div>
-              <div class="menu-item-description">Bula with Kitfo</div>
-            </div>
-            <div class="menu-item">
-
-              <div class="menu-item-name">Chechebsa</div>
-
-              <div class="menu-item-description">Normal Chechebsa</div>
-              <div class="menu-item-description">Special Chechebsa</div>
-            </div>
-            <div class="menu-item">
-
-              <div class="menu-item-name">Ful</div>
-
-              <div class="menu-item-description">Normal Ful</div>
-              <div class="menu-item-description">Special Ful</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="gallery" class="fill-it-all">
-        <div class="container-fluid " style="margin-left: 0; margin-right: 0; padding-right: 0px; 
-        padding-left: 0px; ">
-          <div class="menu-item-photos-row">
-            <div class="menu-item-photos">
-              <div class="gallery-item"> <img src="./images/Break1.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos">
-              <div class="gallery-item"> <img src="./images/Break2.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos p2">
-              <div class="gallery-item"> <img src="./images/Break3.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos p2">
-              <div class="gallery-item"> <img src="./images/Break4.jpg" class="img-responsive" alt=""></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row menu-row fill-it-all" style="margin-left: 0; margin-right: 0; padding-right: 0px; 
-      padding-left: 0px; ">
-        <div class="col-xs-12 col-sm-6 eng">
-          <div class="menu-section">
-            <h2 class="menu-section-title">የፆም </h2>
-            <div class="menu-item">
-  
-              <div class="menu-item-name">በያይነት </div>
-            </div>
-            <div class="menu-item">
-  
-              <div class="menu-item-name">ሽሮ</div>
-  
-              <div class="menu-item-description">ሽሮ በቅቤ </div>
-              <div class="menu-item-description">ሽሮ እስፔሻል</div>
-            </div>
-            <div class="menu-item">
-  
-              <div class="menu-item-name">ምስር</div>
-  
-              <div class="menu-item-description">አልጫ የተፈረሸ ምስር </div>
-              <div class="menu-item-description">እስፔሻል ምስር</div>
-              <div class="menu-item-description">ምስር በቅቤ </div>
-            </div>
-            <div class="menu-item">
-  
-              <div class="menu-item-name">ጎመን</div>
-              <div class="menu-item-description">ጎመን በክትፎ </div>
-              <div class="menu-item-description">ጎመን መረቅ</div>
-              <div class="menu-item-description">ጎመን በቅጨ</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">ሱፍ ፍትፍት </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">ተልባ ፍትፍት</div>
-            </div> 
-            <div class="menu-item">
-              <div class="menu-item-name">ቲማቲም</div>
-              <div class="menu-item-description">ቲማቲም ቁርጥ</div>
-              <div class="menu-item-description">ቲማቲም ለብለብ</div>
-              <div class="menu-item-description">ቲማቲም በቱና</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">ጣእም የፆም ስፔሻል</div>
-            </div>
-          </div>
-        </div>
-        <div class = "spacer layer1"></div>
-        <div class="col-xs-12 col-sm-6 amharic-1 bg-red">
-          <div class="menu-section">
-            <h2 class="menu-section-title">Fasting </h2>
-            <div class="menu-item">
-  
-              <div class="menu-item-name">Beyeaynet </div>
-            </div>
-            <div class="menu-item">
-  
-              <div class="menu-item-name">Shiro</div>
-  
-              <div class="menu-item-description">Shiro be Kibe</div>
-              <div class="menu-item-description">Special Shiro</div>
-            </div>
-            <div class="menu-item">
-  
-              <div class="menu-item-name">Misir</div>
-  
-              <div class="menu-item-description">Alcha Firish Misir</div>
-              <div class="menu-item-description">Special Misir</div>
-              <div class="menu-item-description">Misir Be Kibe</div>
-            </div>
-            <div class="menu-item">
-  
-              <div class="menu-item-name">Gomen</div>
-              <div class="menu-item-description">Gomen Be Kitfo</div>
-              <div class="menu-item-description">Merek Be Gomen</div>
-              <div class="menu-item-description">Gomen Be Kinche</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Suf Fitfit</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Telba Fitfit</div>
-            </div> 
-            <div class="menu-item">
-              <div class="menu-item-name">Timatim</div>
-              <div class="menu-item-description">Timatim Kurt</div>
-              <div class="menu-item-description">Timatim Lebleb</div>
-              <div class="menu-item-description">Timatim Tuna</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Team Ye Tsom Special</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="gallery" class="fill-it-all">
-        <div class="container-fluid " style="margin-left: 0; margin-right: 0; padding-right: 0px; 
-        padding-left: 0px; ">
-          <div class="menu-item-photos-row">
-            <div class="menu-item-photos">
-              <div class="gallery-item"> <img src="./images/Fast1.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos">
-              <div class="gallery-item"> <img src="./images/Fast2.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos p2">
-              <div class="gallery-item"> <img src="./images/Fast3.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos p2">
-              <div class="gallery-item"> <img src="./images/Fast4.jpg" class="img-responsive" alt=""></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="row menu-row fill-it-all" style="margin-left: 0; margin-right: 0; padding-right: 0px; 
-      padding-left: 0px; ">
-        <div class="col-xs-12 col-sm-6 eng">
-          <div class="menu-section">
-            <h2 class="menu-section-title">የፍስክ</h2>
-            <div class="menu-item">
-              <div class="menu-item-name">ጥብስ </div>
-              <div class="menu-item-description">የበግ</div>
-              <div class="menu-item-description">ጭቅና</div>
-              <div class="menu-item-description">ደቃቅ </div>
-            </div>
-              
-            <div class="menu-item">
-              <div class="menu-item-name">ዱለት</div>
-              <div class="menu-item-description">ኖርማል</div>
-              <div class="menu-item-description">እስፔሻል </div>
-          
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">ክትፎ </div>
-              <div class="menu-item-description">ኖርማል</div>
-              <div class="menu-item-description">እስፔሻል </div>
-          
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">ጎመን በስጋ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">የበግ አልጫ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">ምንቸት </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">ድንች በስጋ </div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">ጣእም የፍስክ እስፔሻል</div>
-            </div>
-            
-          </div>
-        </div>
-        <div class = "spacer layer1"></div>
-        <div class="col-xs-12 col-sm-6 amharic-1 bg-red">
-          <div class="menu-section">
-            <h2 class="menu-section-title">Non Fasting</h2>
-            <div class="menu-item">
-              <div class="menu-item-name">Tibs </div>
-              <div class="menu-item-description">Ye Beg Tibs</div>
-              <div class="menu-item-description">Chikina Tibs</div>
-              <div class="menu-item-description">Dekak Tibs</div>
-            </div>
-              
-            <div class="menu-item">
-              <div class="menu-item-name">Dulet</div>
-              <div class="menu-item-description">Normal Dulet</div>
-              <div class="menu-item-description">Special Dulet</div>
-          
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Kitfo</div>
-              <div class="menu-item-description">Normal Kitfo</div>
-              <div class="menu-item-description">Special Kitfo</div>
-          
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Gomen Be Siga</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Ye Beg Alcha</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Michet</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Dinich Be Siga</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Taem Ye Fisik Speical</div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-      <div id="gallery" class="fill-it-all">
-        <div class="container-fluid " style="margin-left: 0; margin-right: 0; padding-right: 0px; 
-        padding-left: 0px; ">
-          <div class="menu-item-photos-row">
-            <div class="menu-item-photos">
-              <div class="gallery-item"> <img src="./images/Non1.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos">
-              <div class="gallery-item"> <img src="./images/Non2.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos p2">
-              <div class="gallery-item"> <img src="./images/Non3.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos p2">
-              <div class="gallery-item"> <img src="./images/Non4.jpg" class="img-responsive" alt=""></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row menu-row fill-it-all" style="margin-left: 0; margin-right: 0; padding-right: 0px; 
-      padding-left: 0px; ">
-        <div class="col-xs-12 col-sm-6 eng
-        ">
-          <div class="menu-section">
-            <h2 class="menu-section-title">Drinks</h2>
-            <div class="menu-item">
-              <div class="menu-item-name">Traditional Drinks</div>
-              <div class="menu-item-name">Tella</div>
-              <div class="menu-item-name">Tej</div>
-              <div class="menu-item-name">Buna</div>
-            </div>
-            <div class="menu-item">
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Soft Drinks</div>
-            </div>
-            <div class="menu-item">
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Ye Beg Alcha</div>
-            </div>
-            
-          </div>
-        </div>
-        <div class = "spacer layer1"></div>
-        <div class="col-xs-12 col-sm-6 amharic-1 bg-red">
-          <div class="menu-section">
-            <h2 class="menu-section-title">Drinks</h2>
-            <div class="menu-item">
-              <div class="menu-item-name">Tella</div>
-            </div>
-              
-            <div class="menu-item">
-              <div class="menu-item-name">Tej</div>
-              
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Soft Drinks</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Buna</div>
-            </div>
-            <div class="menu-item">
-              <div class="menu-item-name">Ye Beg Alcha</div>
-            </div>
-            
-          </div>
-        </div>
-      </div>
-      <div id="gallery" class="fill-it-all">
-        <div class="container-fluid " style="margin-left: 0; margin-right: 0; padding-right: 0px; 
-        padding-left: 0px; ">
-          <div class="menu-item-photos-row">
-            <div class="menu-item-photos">
-              <div class="gallery-item"> <img src="./images/Drink1.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos">
-              <div class="gallery-item"> <img src="./images/Drink2.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos p2">
-              <div class="gallery-item"> <img src="./images/Drink3.jpg" class="img-responsive" alt=""></div>
-            </div>
-            <div class="menu-item-photos p2">
-              <div class="gallery-item"> <img src="./images/Drink4.jpg" class="img-responsive" alt=""></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--Footer starts-->
-  <footer id="footer" data-stellar-background-ratio="0.5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 col-sm-8">
-          <div class="footer-info">
-            <div class="section-title">
-              <h2 class="wow fadeInUp" data-wow-delay="0.2s">Contact us</h2>
-            </div>
-            <address class="wow fadeInUp" data-wow-delay="0.4s">
-              <p>Phone no : 0900000000,<br> Telegram : telegram account</p>
-            </address>
-          </div>
-        </div>
-
-        <div class="col-md-3 col-sm-8">
-          <div class="footer-info">
-            <div class="section-title">
-              <h2 class="wow fadeInUp" data-wow-delay="0.2s">Location</h2>
-            </div>
-            <address class="wow fadeInUp" data-wow-delay="0.4s">
-              <p>Watch Tower 2nd Floor</p>
-              <p>Infront of </p>
-            </address>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-8">
-          <div class="footer-info footer-open-hour">
-            <div class="section-title " style="margin-left: -40px;">
-              <h2 class="wow fadeInUp" data-wow-delay="0.2s">Open Hours</h2>
-            </div>
-            <div style="margin-left: -40px;" class="wow fadeInUp" data-wow-delay="0.4s">
-              <p>Monday- Sunday</p>
-              <div>
-                <strong>Opening Time Local</strong>
-                <p>1:00 AM - 4:00 PM Local</p>
+  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!--Navbar-->
+    <nav>
+      <div class="logo">ጣዕም</div>
+      <input type="checkbox" id="click" />
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="galllery.html">Gallery</a></li>
+        <li><a href="Menu.html">Menu</a></li>
+      </ul>
+    </nav>
+    <!-- Start Restaurant Menu -->
+    <section id="mu-restaurant-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-restaurant-menu-area">
+              <div class="mu-title">
+                <span class="mu-subtitle">Discover</span>
+                <h2>OUR MENU</h2>
               </div>
-              <div>
-                <strong>Opening Time</strong>
-                <p>7:00 AM - 10:00 PM</p>
+
+              <div class="mu-restaurant-menu-content">
+                <ul class="nav nav-tabs mu-restaurant-menu">
+                  <li class="active">
+                    <a href="#breakfast" data-toggle="tab">ቁርስ</a>
+                  </li>
+                  <li><a href="#Fasting" data-toggle="tab">የፆም</a></li>
+                  <li><a href="#NonFasting" data-toggle="tab">የፍስክ</a></li>
+                  <li><a href="#drinks" data-toggle="tab">መጠጦች</a></li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                  <div class="tab-pane fade in active" id="breakfast">
+                    <div class="mu-tab-content-area">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="mu-tab-content-left">
+                            <ul class="mu-menu-item-nav">
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/Break2.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ፍርፍር</a>
+                                    </h4>
+
+                                    <p>
+                                      ቋንጣ ፍርፍር,
+                                    </p>
+                                    <p>ጥብስ ፍርፍር,</p>
+                                    <p>ክትፎ ፍርፍር</p>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/Break3.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ቅንጨ</a>
+                                    </h4>
+
+                                    <p>
+                                      ኖርማል ቅንጨ
+                                    </p>
+                                    <p>ስፔሻል ቅንጨ</p>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/inkulal.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">እንቁላል</a>
+                                    </h4>
+
+                                    <p>
+                                      እንቁላል ፍርፍር
+                                    </p>
+                                    <p>እንቁላል ሳንዱዊች</p>
+                                    <p>እንቁላል በቱና</p>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="mu-tab-content-right">
+                            <ul class="mu-menu-item-nav">
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/7.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ቡላ</a>
+                                    </h4>
+
+                                    <p>
+                                      ኖርማል ቡላ
+                                    </p>
+                                    <p>እስፔሻል ቡላ</p>
+                                    <p>ቡላ በክትፎ</p>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/Break1.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ጨጨብሳ</a>
+                                    </h4>
+
+                                    <p>
+                                      ኖርማል ጨጨብሳ
+                                    </p>
+                                    <p>እስፔሻል ጨጨብሳ</p>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/Break4.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ፉል</a>
+                                    </h4>
+
+                                    <p>
+                                      ኖርማል ፉል
+                                    </p>
+                                    <p>እስፔሻል ፉል</p>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="Fasting">
+                    <div class="mu-tab-content-area">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="mu-tab-content-left">
+                            <ul class="mu-menu-item-nav">
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="assets/img/menu/item-3.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ሽሮ</a>
+                                    </h4>
+                                    <p>ሽሮ በቅቤ</p>
+                                    <p>ሽሮ እስፔሻል</p>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="assets/img/menu/item-4.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ምስር</a>
+                                    </h4>
+
+                                    <p>አልጫ የተፈረሸ ምስር</p>
+                                    <p>እስፔሻል ምስር</p>
+                                    <p>ምስር በቅቤ</p>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="assets/img/menu/item-3.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ጎመን</a>
+                                    </h4>
+
+                                    <p>ጎመን በክትፎ</p>
+                                    <p>ጎመን መረቅ</p>
+                                    <p>ጎመን በቅጨ</p>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="mu-tab-content-right">
+                            <ul class="mu-menu-item-nav">
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="assets/img/menu/item-4.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ፍትፍት</a>
+                                    </h4>
+
+                                    <p>ሱፍ ፍትፍት</p>
+                                    <p>ተልባ ፍትፍት</p>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="assets/img/menu/item-3.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ቲማቲም</a>
+                                    </h4>
+
+                                    <p>ቲማቲም ቁርጥ</p>
+                                    <p>ቲማቲም ለብለብ</p>
+                                    <p>ቲማቲም በቱና</p>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="assets/img/menu/item-4.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ጣእም የፆም ስፔሻል</a>
+                                    </h4>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="NonFasting">
+                    <div class="mu-tab-content-area">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="mu-tab-content-left">
+                            <ul class="mu-menu-item-nav">
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/9.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ጥብስ</a>
+                                    </h4>
+                                    <p>የበግ ጥብስ</p>
+                                    <p>ጭቅና ጥብስ</p>
+                                    <p>ደቃቅ ጥብስ</p>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/dulet.jfif"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ዱለት</a>
+                                    </h4>
+
+                                    <p>ኖርማል ዱለት</p>
+                                    <p>እስፔሻል ዱለት</p>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/13.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">የበግ አልጫ</a>
+                                    </h4>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/gallery3.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ክትፎ</a>
+                                    </h4>
+                                    <p>ኖርማል ክትፎ</p>
+                                    <p>እስፔሻል ክትፎ</p>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="mu-tab-content-right">
+                            <ul class="mu-menu-item-nav">
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/15.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ጣእም የፍስክ እስፔሻል</a>
+                                    </h4>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/5.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ጎመን በስጋ</a>
+                                    </h4>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="assets/img/menu/item-5.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ምንቸት</a>
+                                    </h4>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="assets/img/menu/item-5.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">ድንች በስጋ</a>
+                                    </h4>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="tab-pane fade" id="drinks">
+                    <div class="mu-tab-content-area">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="mu-tab-content-left">
+                            <ul class="mu-menu-item-nav">
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/Drink3.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">Tella</a>
+                                    </h4>
+
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/Drink1.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">Tej</a>
+                                    </h4>
+
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/Drink2.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">Buna</a>
+                                    </h4>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="./images/beg-alcha.png"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">Ye Beg Alcha</a>
+                                    </h4>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+
+                        <div class="col-md-6">
+                          <div class="mu-tab-content-right">
+                            <ul class="mu-menu-item-nav">
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="assets/img/menu/item-9.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">Soft Drinks</a>
+                                    </h4>
+                                  </div>
+                                </div>
+                              </li>
+                              <li>
+                                <div class="media">
+                                  <div class="media-left">
+                                    <a href="#">
+                                      <img
+                                        class="media-object"
+                                        src="assets/img/menu/item-10.jpg"
+                                        alt="img"
+                                      />
+                                    </a>
+                                  </div>
+                                  <div class="media-body">
+                                    <h4 class="media-heading">
+                                      <a href="#">Alcholic Drinks</a>
+                                    </h4>
+                                  </div>
+                                </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- End Restaurant Menu -->
+    <!--Footer starts-->
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-8">
+            <div class="footer-info">
+              <div class="section-title">
+                <h2 class="wow fadeInUp" data-wow-delay="0.2s">Contact us</h2>
+              </div>
+              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                <p>
+                  Phone no : 0900000000,
+                  <br />
+                  Telegram : telegram account
+                </p>
+              </address>
+            </div>
+          </div>
 
-        <div class="col-md-2 col-sm-4">
-        
-          <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s">
-    
-              <p><br><br>Design: AN Designers</p>
+          <div class="col-md-3 col-sm-8">
+            <div class="footer-info">
+              <div class="section-title">
+                <h2 class="wow fadeInUp" data-wow-delay="0.2s">Location</h2>
+              </div>
+              <address class="wow fadeInUp" data-wow-delay="0.4s">
+                <p>Watch Tower 2nd Floor</p>
+                <p>Infront of</p>
+              </address>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-8">
+            <div class="footer-info footer-open-hour">
+              <div class="section-title" style="margin-left: -40px;">
+                <h2 class="wow fadeInUp" data-wow-delay="0.2s">Open Hours</h2>
+              </div>
+              <div
+                style="margin-left: -40px;"
+                class="wow fadeInUp"
+                data-wow-delay="0.4s"
+              >
+                <p>Monday- Sunday</p>
+                <div>
+                  <strong>Opening Time Local</strong>
+                  <p>1:00 AM - 4:00 PM Local</p>
+                </div>
+                <div>
+                  <strong>Opening Time</strong>
+                  <p>7:00 AM - 10:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-4">
+            <div class="wow fadeInUp copyright-text" data-wow-delay="0.8s">
+              <p>
+                <br />
+                <br />
+                Design: AN Designers
+              </p>
+            </div>
           </div>
         </div>
-
       </div>
-    </div>
-  </footer>
+    </footer>
+    <!-- jQuery library -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"
+    ></script>
+    <!-- bootstrap js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-
-
-  <!--Footer js-->
-  <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/stellar.js/0.6.2/jquery.stellar.min.js">
-  </script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-  <script src="css/footer.js"></script>
-
-  <!--Navbar.js-->
-  <!-- Scripts -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script type="text/javascript"
-    src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
-  <script>
-    $(window).scroll(function() {
-        if ($("nav").offset().top > 50) {
-          if($("body").width() >920){
-            $("nav").addClass('opacity-doer')
-          }
-        } else{
-          $("nav").removeClass('opacity-doer')
-        }
-      });
-  </script>
+    <!--Footer js-->
+    <script src="css/footer.js"></script>
   </body>
-
 </html>
