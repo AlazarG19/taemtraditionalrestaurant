@@ -89,6 +89,7 @@ Author URI : http://www.markups.io/
   .mu-restaurant-menu li.active a,
   .mu-restaurant-menu li.active a:hover,
   .mu-restaurant-menu li.active a:focus {
+    font-size: 25px;
     color: #a46244;
     border-color: #a46244 #a46244 transparent;
   }

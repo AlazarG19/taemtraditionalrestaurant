@@ -26,6 +26,7 @@
   }
   
   .mu-restaurant-menu li {
+	font-weight: 550;
 	display: inline-block;
 	float: none;
   }
@@ -105,7 +106,7 @@
   } */
   .mu-menu-item-nav li .media .media-body .media-heading {
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
 	margin-bottom: 10px;
   }
   
@@ -127,7 +128,8 @@
   .mu-menu-item-nav li .media .media-body p {
 	text-align: center;
 	margin-top: 10px;
-	font-size: 14px;
+	font-size: 20px;
+	font-weight: 550;
   }
   
   
