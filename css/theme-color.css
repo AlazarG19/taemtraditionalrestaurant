@@ -57,6 +57,7 @@ Author URI : http://www.markups.io/
   .mu-counter-nav li .mu-single-counter,
   .mu-top-slider .slick-dots li.slick-active button::before  {
     background-color: #a46244;
+    font-family: "myfont3";
   }
   
   .mu-readmore-btn:hover::after, 

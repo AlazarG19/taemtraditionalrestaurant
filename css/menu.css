@@ -116,6 +116,7 @@
 	-ms-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	transition: all 0.5s;
+	font-family: "myfont3";
   }
   
   .mu-menu-item-nav li .media .media-body .mu-menu-price {
@@ -126,6 +127,8 @@
   }
   
   .mu-menu-item-nav li .media .media-body p {
+	font-family: "myfont3";
+
 	text-align: center;
 	margin-top: 10px;
 	font-size: 20px;

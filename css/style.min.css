@@ -47,6 +47,7 @@ h2 {
 }
 
 .subheading {
+  font-family: "myfont3";
   color: #f34949;
 }
 
@@ -338,7 +339,7 @@ a:hover {
 }
 
 .testi-content .testi-text {
-  font-style: italic;
+  font-family: "myfont3";
   font-weight: 300;
   line-height: 1.6;
   padding: 30px 60px;
