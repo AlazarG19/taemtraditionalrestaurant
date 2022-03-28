@@ -343,11 +343,11 @@ header #menu-bar{
     opacity: 0;
 }
 
-.gallery .box-container .box:hover h3{
+/* .gallery .box-container .box:hover h3{
     top:50%;
     opacity: 1;
     transition-delay: .2s;
-}
+} */
 
 .gallery .box-container .box::before{
     content: '';
@@ -359,9 +359,9 @@ header #menu-bar{
     transition:.2s linear;
 }
 
-.gallery .box-container .box:hover::before{
+/* .gallery .box-container .box:hover::before{
     top:0;
-}
+} */
 
 
 
