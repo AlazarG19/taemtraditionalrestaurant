@@ -1,0 +1,44 @@
+.video-container{
+    display: flex;
+    flex-direction: row;
+}
+.video-container>div{
+    width: 50%;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.video > video{
+    width: 100%;
+}
+.about-description{
+    margin-right: 50px;
+}
+.about-description>div{
+    padding-left: 0;
+}
+.pl-lg-5{
+    padding-left: 0;
+}
+.container{
+    padding : 0;
+    margin: 0;
+    max-width: none;
+    margin: 0 2vw;
+}
+@media (max-width : 575px) {
+    .video-container{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .video-container > div {
+        width: 100%;
+    }
+    .about-description div:nth-child(2){
+        margin-right: 50px;
+    }
+}
